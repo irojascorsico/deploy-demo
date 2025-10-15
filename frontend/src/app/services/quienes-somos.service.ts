@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class QuienesSomosService {
 
   constructor(private http:HttpClient) { }
-  url="http://localhost:8000/api/v1/team";
+  url="https://deploy-demo-wv74.onrender.com/api/v1/team";
   
   obtenerProfesionales(): Observable<any>{
     return this.http.get(this.url);
