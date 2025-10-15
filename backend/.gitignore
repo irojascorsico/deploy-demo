@@ -1,0 +1,35 @@
+# Entornos virtuales
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+
+# Archivos de configuración local
+*.env
+*.sqlite3
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de migraciones (opcional si querés que los estudiantes las generen)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# Archivos de compilación
+*.swp
+*.bak
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

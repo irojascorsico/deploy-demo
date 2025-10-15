@@ -1,0 +1,12 @@
+{
+  "usuario": {
+    "id": 123,
+    "nombre": "Juan Pérez",
+    "email": "juan@example.com",
+    "configuracion": {
+      "tema": "oscuro",
+      "notificaciones": true
+    },
+    "roles": ["admin", "usuario"]
+  }
+}

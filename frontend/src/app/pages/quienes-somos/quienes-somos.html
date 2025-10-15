@@ -1,0 +1,20 @@
+<h1>Quienes somos</h1>
+@for (item of profesionalList; track item.id) {
+ <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{item.name}}</h5>
+    <p class="card-text">{{item.perfil}}</p>
+    <a href="#" [class]=btnColor>Go somewhere</a>
+   
+  </div>
+</div>
+} 
+@empty {
+  
+ <p>Sin registros</p>
+}
+ <p class="alert alert-danger">{{error}}</p>
+<button (click)="crear()">Crear Profesiona</button>
+
+

@@ -1,0 +1,19 @@
+{
+  "quienes_somos": [
+    {
+      "name": "Ivana",
+      "perfil": "Docente y desarrolladora",
+      "description": "Metódica, creativa y rigurosa. Promueve el pensamiento crítico, la autonomía y la colaboración en experiencias educativas integrales."
+    },
+    {
+      "name": "Lucas",
+      "perfil": "Diseñador instruccional",
+      "description": "Especialista en gamificación y diseño de actividades reflexivas. Integra teoría y práctica con recursos digitales colaborativos."
+    },
+    {
+      "name": "María",
+      "perfil": "Coordinadora pedagógica",
+      "description": "Impulsa la profesionalización del aprendizaje, adaptando contenidos a distintos niveles y estilos cognitivos."
+    }
+  ]
+}
